@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common National Symbols</title>
+    <style>
+        body {
+            font-family: 'Arial', Times New Roman;
+            background-color: green;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 10px;
+			position: relative;
+        }
+		marquee {
+		    color: yellow;
+			font-size: 1.5rem;
+			margin-top: 10px;
+			padding: 10px;
+		}
+        main {
+            padding: 20px;
+        }
+        .symbol-section {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px auto;
+            background-color: beige;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+        .symbol {
+            text-align: center;
+        }
+        .symbol img {
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .symbol h3 {
+            color: #333;
+        }
+        audio {
+            margin-top: 20px;
+            width: 100%;
+        }
+        footer {
+            background-color: #004d99;
+            color: white;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <marquee behavior="alternate" scrollamount="20" direction="right"><h1>NATIONAL SYMBOLS OF INDIA</h1></marquee>
+	<h2>UI ASSIGNMENT 1</h2>
+</header>
+
+<main>
+    <!-- National Symbols Section -->
+    <div class="symbol-section">
+        <div class="symbol">
+            <marquee behavior="slide" direction="left" scrollamount="10"><img src="national_flag.jpg" alt="National Flag"></marquee>
+            <h3>National Flag</h3>
+            <p>Our pride, representing unity and diversity.</p>
+        </div>
+        <div class="symbol">
+            <img src="national_animal.jpg" alt="National Animal">
+            <h3>National Animal</h3>
+            <p>The majestic Tiger, symbolizing strength and courage.</p>
+        </div>
+        <div class="symbol">
+            <marquee behavior="slide" direction="right" scrollamount="5"  ><img src="national_bird.jpg" alt="National Bird"></marquee>
+            <h3>National Bird</h3>
+            <p>The Peacock, symbolizing beauty and pride.</p>
+        </div>
+    </div>
+
+    <div class="symbol-section">
+        <div class="symbol">
+            <marquee behavior="slide" direction="right" scrollamount="7"><img src="national_flower.jpg" alt="National Flower"></marquee>
+            <h3>National Flower</h3>
+            <p>The Lotus, representing purity and enlightenment.</p>
+        </div>
+        <div class="symbol">
+           <marquee behavior="slide" direction="left" scrollamount="9"> <img src="national_tree.jpg" alt="National Tree"></marquee>
+            <h3>National Tree</h3>
+            <p>The Banyan Tree, symbolizing longevity and strength.</p>
+        </div>
+    </div>
+
+    <!-- Audio Player for National Song -->
+    <audio controls autoplay loop>
+        <source src="national_anthem.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 National Symbols UI Assignment</p>
+	<p>By: OPURVA SAINI (BCA EI)</p>
+</footer>
+
+</body>
+</html>
